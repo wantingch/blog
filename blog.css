@@ -1,0 +1,47 @@
+body {
+    font-family: Lora;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    display: block;
+    text-align: right;
+    border-top:2px solid #EFC69B;
+    border-bottom:2px solid #EFC69B;
+    padding: 20px 
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    color:#AF1B3F ;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+article {
+    width: 70%;
+    padding: 10px;
+}
+
+aside {
+    width: 20%;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
