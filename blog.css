@@ -17,11 +17,13 @@ nav ul {
     border-top:2px solid #EFC69B;
     border-bottom:2px solid #EFC69B;
     padding: 20px 
+    
 }
 nav ul li {
     display: inline;
     margin-right: 10px;
     color:#AF1B3F ;
+    font-size: 25px;
     
 }
 .grid-container {
@@ -58,6 +60,25 @@ main {
     justify-content: space-between;
 }
 
+
+.skiptocontent a {
+    position: absolute;
+    left: -10000px;
+    top: -40px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;   
+}
+
+.skiptocontent a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    top:0
+}
+.red{
+    color:#AF1B3F ;
+}
 aside {
     width: 10%;
     padding: 10px;
@@ -75,5 +96,5 @@ footer {
 img {
     width: 50%;
     display: block;
-    margin: 0 auto;
+    margin-left: 50px;
 }
