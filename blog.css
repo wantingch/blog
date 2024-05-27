@@ -13,7 +13,7 @@ h2{
 
 nav ul {
     display: block;
-    justify-content: right;
+    text-align: right;
     border-top:2px solid #EFC69B;
     border-bottom:2px solid #EFC69B;
     padding: 20px 
@@ -26,21 +26,21 @@ nav ul li {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 3fr; /* Adjust the width ratio between the date-genre and the book-info */
+    grid-template-columns: 1fr 3fr; 
     gap: 20px;
     padding: 10px;
 }
 
 .date-genre {
-    background-color: #f4f4f4; /* Light background for visibility */
-    padding: 20px;
-    text-align: left; /* Ensure text alignment */
+    background-color: #f4f4f4; 
+    padding: 25%;
+    text-align: right;
 }
 
 .book-info {
     background-color: #fff; /* White background for the book information */
     padding: 20px;
-    text-align: left; /* Align the text on the left */
+    text-align: center; 
 }
 
 .book-info img {
