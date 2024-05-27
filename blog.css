@@ -32,22 +32,25 @@ nav ul li {
 }
 
 .date-genre {
-    background-color: #f4f4f4; 
-    padding: 25%;
-    text-align: right;
+    padding: 15px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20px;
 }
 
 .book-info {
-    background-color: #fff; /* White background for the book information */
     padding: 20px;
-    text-align: center; 
+    text-align: left; 
+    font-size: 25px;
 }
 
 .book-info img {
     height: auto;
     display: block;
-    margin-bottom: 10px; /* Space below the image */
+    margin-bottom: 10px; 
 }
+
+
 
 main {
     display: flex;
