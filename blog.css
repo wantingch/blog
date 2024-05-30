@@ -63,7 +63,7 @@ main {
 
 .skiptocontent a {
     position: absolute;
-    left: -10000px;
+    /* left: -10000px; */
     top: -40px;
     width: 1px;
     height: 1px;
